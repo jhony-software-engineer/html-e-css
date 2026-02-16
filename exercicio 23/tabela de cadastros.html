@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, td, th {
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 8px;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .colname{
+               background-color: blue;
+        }
+        .colsex{
+            background-color: yellow;
+        }
+        .colyers{
+            background-color: green;
+        }
+        .coljob{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <colgroup>
+        <col class="colname" >
+        <col class="colsex" >
+        <col class="colyers" >
+        <col class="coljob" >
+        </colgroup>
+        <caption>cadastros</caption>
+        <tr>
+            <th scope="col">name</th>
+            <th scope="col">sex</th>
+            <th scope="col">yers</th>
+            <th scope="col">job</th>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>feminino</td>
+            <td>25</td>
+            <td>engenheira</td>
+        </tr>
+        <tr>
+            <td>joão</td>
+            <td>masculino</td>
+            <td>30</td>
+            <td>médico</td>
+        </tr>
+        <tr>
+            <td>ana</td>
+            <td>feminino</td>
+            <td>22</td>
+            <td>professora</td>
+        </tr>
+        <tr>
+            <td>carlos</td>
+            <td>masculino</td>
+            <td>28</td>
+            <td>advogado</td>
+        </tr>
+        <tr>
+            <td>lucia</td>
+            <td>feminino</td>
+            <td>35</td>
+            <td>arquiteta</td>
+        </tr>
+        <tr>
+            <td>pedro</td>
+            <td>masculino</td>
+            <td>27</td>
+            <td>programador</td>
+        </tr>
+    </table>
+</body>
+</html>
